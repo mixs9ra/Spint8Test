@@ -17,13 +17,13 @@ public class AccountTest {
     @Parameterized.Parameters(name = "Тестовые данные: {0}, {1}")
     public static Object[][] getTestData() {
         return new Object[][]{
-                {"Бильбо Беггинс", true},
-                {"РоккиБильбо", false},
-                {" Бильбо Сумкин", false},
-                {"Сумкин Бильбо ", false},
-                {"Би", false},
-                {"Бильбо СумкоПодсумкинБеггинс", false},
-                {"Gasjd; jajs'L", true},
+                {"Максим Ленин", true},
+                {"СашаНестеров", false},
+                {" Андрей Нефедоров", false},
+                {"Денис Денис ", false},
+                {"Аа", false},
+                {"Андрей ПятьсПятьсПятьсПятьсПятьс", false},
+                {"Gasjd; dddd'g", true},
         };
     }
 
